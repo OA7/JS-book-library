@@ -11,7 +11,17 @@ function Book(title, author, pages, read = false) {
 
 // Function to add books to Array
 function addBookToLibrary(book) {
-  myLibrary.push(book);
+  const list = document.querySelector('#book-table');
+  const row = document.createElement('tr');
+  let status = book.read === false ? 'Please read book' : 'Good job';
+
+  row.innerHTML = `
+    <td>${book.title}</td>
+    <td>${book.author}</td>
+    <td>${book.pages}</td>
+    <td>${status}</td>
+  `
+  list.appendChild(row);
 }
 
 // Adding book from form
@@ -23,11 +33,15 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 
   const book = new Book(title, author, pages);
   addBookToLibrary(book);
+  myLibrary.push(book);
   console.log(myLibrary);
 });
 
 
 // Render view
+function render() {
+
+}
 
 // Validation for input
 

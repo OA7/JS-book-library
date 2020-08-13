@@ -1,17 +1,34 @@
-let myLibrary = [];
+// Book Array to hold books
+const myLibrary = [];
 
-function Book(title, author, pages, read) {
+// Book function
+function Book(title, author, pages, read = false) {
   this.title = title;
   this.author = author;
   this.pages = pages;
   this.read = read;
 }
 
-let firstBook = new Book('artof', 'me', '222', true);
+// Function to add books to Array
 function addBookToLibrary(book) {
   myLibrary.push(book);
 }
 
-// addBookToLibrary(firstBook);
+// Adding book from form
+document.querySelector('#book-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
+  const pages = document.getElementById('pages').value;
 
-// console.log(myLibrary);
+  const book = new Book(title, author, pages);
+  addBookToLibrary(book);
+  console.log(myLibrary);
+});
+
+
+// Render view
+
+// Validation for input
+
+//

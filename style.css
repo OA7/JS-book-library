@@ -9,13 +9,15 @@ input[type=text], select {
 }
 
 button[type=submit] {
-  width: 100%;
+  width: 50%;
   background-color: #81cdf0;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
+  margin-left: 25%;
+  margin-top: 8px;
+  margin-bottom: 8px;
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 
@@ -24,16 +26,24 @@ button[type=submit]:hover {
 }
 
 div {
+  width: 60%;
+  margin: 0 auto;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #81cdf0;
 }
 
 
 #books {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin: 100px auto;
 }
 
 #books td, #books th {

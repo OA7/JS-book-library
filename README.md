@@ -22,7 +22,7 @@
     <a href="https://github.com/OA7/JS-book-library"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OA7/JS-book-library">View Demo</a>
+    <a href="https://rawcdn.githack.com/OA7/JS-book-library/a859f84aa0cedc2a2c04ee2d152975f5f9de77c5/index.html">View Demo</a>
     ·
     <a href="https://github.com/OA7/JS-book-library/issues">Report Bug</a>
     ·
@@ -146,14 +146,14 @@ Give a ⭐️ if you like this project!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/OA7/JS-book-library.svg?style=flat-square
 [contributors-url]: https://github.com/OA7/JS-book-library/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/OA7/JS-book-library.svg?style=flat-square
 [forks-url]: https://github.com/OA7/JS-book-library/network/members
 [stars-shield]: https://img.shields.io/github/stars/OA7/JS-book-library.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/OA7/JS-book-library/stargazers
 [issues-shield]: https://img.shields.io/github/issues/OA7/JS-book-library.svg?style=flat-square
 [issues-url]: https://github.com/OA7/JS-book-library/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/OA7/JS-book-library.svg?style=flat-square
+[license-url]: https://github.com/OA7/JS-book-library/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/osong-agberndifor
 [product-screenshot]: images/screen.png
